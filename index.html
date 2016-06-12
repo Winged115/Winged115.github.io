@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="styles.css" type="text/css">
 	<title>Detroit Red Wings</title>
 </head>
 <body>
-	<header><a href=http://redwings.nhl.com/index.html>Official Team Page</a></header>
-	<p>The above website is very user friendly. Most of the information I got, I was able to take directly from it in an easy manner. The menus and images and links are quick, simple, and digestable. The negative feedback I have is that its just an ugly website. The black background is horrendous, and the graphics just don't seem to be placed well. </p>
-	<h1>Welcome to the fan webpage for the Detroit Red Wings!</h1>
-	<h2>Fun Facts</h2>
-		<p>The Detroit Red Wings were founded in 1926, and are one of the six original members of the NHL. The Red Wings have won <strong>more</strong> Stanley Cup championships than any other team based in the United States. Their current captain is Henrik Zetterberg. Their current head coach is Jeff Blashill.</p>
-	<h2>Top Scorers</h2>
-
-		<table border=1>
+	<header>
+	<nav>
+	<a href=http://redwings.nhl.com/index.html>Official Team Page</a>
+	<a href="Roster.html">Full Team Roster</a></nav></header>
+	<p id="query">The above website is very user friendly. Most of the information I got, I was able to take directly from it in an easy manner. The menus and images and links are quick, simple, and digestable. The negative feedback I have is that its just an ugly website. The black background is horrendous, and the graphics just don't seem to be placed well. </p>
+	<section>
+	<img id="logo" src="logo.png" alt="The Winged Wheel">
+	<h1 id="heading">Welcome To The Fan Webpage For The <strong>Detroit Red Wings!</strong></h1>
+	</section>
+	<h2 class="titles">Fun Facts</h2>
+		<p id="fun_facts">The Detroit Red Wings were founded in 1926, and are one of the six original members of the NHL. The Red Wings have won <strong>more</strong> Stanley Cup championships than any other team based in the United States. Their current captain is Henrik Zetterberg. Their current head coach is Jeff Blashill.</p>
+	<h2 class="titles">Top Scorers</h2>
+		<table>
 			<tr>
 				<th>Player</th>
 				<th>Season</th>
@@ -43,18 +49,20 @@
 				<td>69</td>
 			</tr>
 		</table>
+	
 
-	<h3>The Captain</h3>
-
-		<img src="http://l.yimg.com/bt/api/res/1.2/HzYd2Iu4W_DBbZE2CeRwKQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/20151021/2503.png" alt="Henrik Zetterberg" />
+	<h3 class="caption">The Captain</h3>
+	<section id="captain">
+		<img class="on_page" src="http://l.yimg.com/bt/api/res/1.2/HzYd2Iu4W_DBbZE2CeRwKQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/20151021/2503.png" alt="Henrik Zetterberg" />
 		<a href=http://l.yimg.com/bt/api/res/1.2/HzYd2Iu4W_DBbZE2CeRwKQ--/YXBwaWQ9eW5ld3NfbGVnbztmaT1maWxsO2g9MjMwO3E9NzU7dz0zNDU-/https://s.yimg.com/xe/i/us/sp/v/nhl_cutout/players_l/20151021/2503.png><p>Link to Image</p></a>
+	</section>
 
-	<h3>The Coach</h3>
-
-		<img src="/Users/JN/Xfiles/Coach.jpg" alt="Jeff Blashill" />
+	<h3 class="caption">The Coach</h3>
+	<section id="coach">
+		<img class="on_page" src="Coach.jpg" alt="Jeff Blashill" />
 		<a href=http://1.cdn.nhle.com/redwings/images/upload/gallery/2015/06/Blashill/2015_05_28_GRG_Round%20III_Game%20III_014_Blashill_slide.jpg><p>Link to Image</p></a>
-
-	<h3><a href="Roster.html">Full Team Roster</a></h3>
+	</section>
+	
 <form action="http://redwings.nhl.com/index.html" method="post">
 	<div>
 		<label>User Name</label>
@@ -67,6 +75,6 @@
 	<p><textarea name="textarea" rows="5" cols="40">Comment on my page here!</textarea></p>
 	<button type="submit">Lets Go Red Wings</button>
 </form>
-	<p>Thanks for checking out <em>my <strong>first</strong></em> Website and Lets Go Wings!</p>
+	<footer><p>Thanks for checking out <em>my <strong>first</strong></em> Website and Lets Go Wings!</p></footer>
 </body>
 </html>
