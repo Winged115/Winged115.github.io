@@ -21,6 +21,9 @@ h2.titles {
 	margin-right: 44%;
 	font-family: "arial", verdana, sans-serif;
 }
+h3.caption {
+	text-align: center;
+}
 p#fun_facts {
 	text-align: center;
 }
@@ -38,4 +41,15 @@ ul {
 h1#roster {font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	text-shadow: 1px 1px 1px;
 	margin-left: 42%;
+}
+footer {
+	text-align: center;
+}
+section#captain {
+	margin: auto;
+	width: 25%;
+}
+section#coach {
+	margin: auto;
+	width: 25%;
 }
