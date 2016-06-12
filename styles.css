@@ -4,11 +4,13 @@ table {
 	border-style: double;
 	border-width: 5px;
 	border-color: red;
+	padding: 15px;
 }
 th {
 	border-style: double;
 	border-width: 2px;
 	border-color: red;
+	font-style: italic;
 }
 td {
 	border-style: dotted;
