@@ -47,9 +47,13 @@ footer {
 }
 section#captain {
 	margin: auto;
-	width: 25%;
+	width: 30%;
 }
 section#coach {
 	margin: auto;
-	width: 25%;
+	width: 30%;
+}
+img {
+	max-width: 345px;
+	max-height: 230px;
 }
