@@ -1,0 +1,14 @@
+table {
+	margin-left: 35%;
+	margin-right: 35%;
+	border-style: double;
+	border-width: 5px;
+}
+th {
+	border-style: double;
+	border-width: 2px;
+}
+td {
+	border-style: dotted;
+	border-width: 1px;
+}
